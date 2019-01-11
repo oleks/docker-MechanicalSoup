@@ -11,7 +11,7 @@ docker run \
   --interactive --tty --rm \
   --volume "$(pwd):/home/docker/src/" \
   --workdir "/home/docker/src/" \
-  portoleks/MechanicalSoup
+  portoleks/mechanicalsoup
 ```
 
 To gracefully exit from the Docker image, type `exit` or press
